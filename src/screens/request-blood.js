@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 import React, {useState} from 'react';
 import {
   View,
@@ -132,11 +133,11 @@ function RequestBlood() {
               onValueChange={(itemValue, itemIndex) =>
                 setSelectedValue(itemValue)
               }>
-              <Picker.Item label="Gujrat" value="Gujrat" />
-              <Picker.Item label="Kharian" value="Kharian" />
-              <Picker.Item label="Kotla" value="Kotla" />
-              <Picker.Item label="Jalalpur" value="Jalalpur" />
-              <Picker.Item label="Barnala" value="Barnala" />
+              <Picker.Item label="Paris" value="Paris" />
+              <Picker.Item label="Marseille" value="Marseille" />
+              <Picker.Item label="Lyon" value="Lyon" />
+              <Picker.Item label="Bordeau" value="Bordeau" />
+              <Picker.Item label="Saint-Etienne" value="Etienne" />
             </Picker>
           </View>
         </View>

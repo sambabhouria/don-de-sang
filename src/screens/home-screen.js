@@ -14,7 +14,7 @@ function HomeScreen({navigation}) {
         <View style={styles.coverParent}>
           <View style={styles.coverTextContainer}>
             <Text style={styles.coverText}>
-              Hayatian's Blood Society is working as community of peop are
+              SambaBhouria's Blood Society is working as community of peop are
               willing to help each other. We have collected over 1000 bags of
               blood in last 3 years.
             </Text>
